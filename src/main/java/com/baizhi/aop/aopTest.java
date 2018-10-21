@@ -15,7 +15,6 @@ public class aopTest {
     public void aa() {
     }
 
-
     @Before(value = "aa()")
     public void testBefore() {
         System.out.println("+++++++++++before++++++++++++");
