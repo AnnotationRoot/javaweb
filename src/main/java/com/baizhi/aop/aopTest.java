@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 public class aopTest {
     @Pointcut(value = "execution(* com.baizhi.service.*.*(..))")
     public void aa() {
-
     }
 
     @Before(value = "aa()")
